@@ -1,0 +1,19 @@
+export(as.gset.data.frame, cind,acm, convert,dualKS,hammingDist,incomparable,is.KS,
+is.CSpace,is.KSpace,is.quordSpace,item_cind,JoinIrrEl,lb_eKS,lowerDist,lowerRep,MeetIrrEl,
+minSA,permtest,permute,probfun,skill_cind,
+SkillAss,ub_eKS,upperDist,upperRep,w_cind, as.KS,as.relation.KS,plothasse,relabel.relation,
+ plot.KS, discred, KSnotions,KSdomain,KSatoms,KSbase,KStrace,summary.KS)
+import(sets, grid,relations, DAKS, plyr)
+
+
+S3method(plot, KS)
+S3method(summary, KS)
+S3method(as.gset,data.frame)
+S3method(is.KS,set)
+S3method(is.KS,gset)
+S3method(is.KS,matrix)
+S3method(as.KS,set)
+S3method(as.KS,gset)
+S3method(as.KS,relation)
+S3method(as.KS,matrix)
+S3method(as.relation,KS)
